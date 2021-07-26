@@ -12,8 +12,10 @@
     "aws-sdk": "^2.953.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "log4js": "^6.3.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "swagger-ui-express": "^4.1.6"
   }
 }
