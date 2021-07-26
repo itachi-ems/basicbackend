@@ -1,12 +1,13 @@
 const router=require('express').Router();
-const db=require ('../Database/db');
+const {User} = require('../models');
 const sqs=require('../Sqs/sqs');
 
 //creating post request
 router.post('/',async function(req,res){
     const data=req.body;
+    console.log("hello");
     try {
-        const result=await db.registerUser(data);
+        const result=await User.create({"email":data.email,"password":data.password});
         sqs.sendMessage(data);
     res.json("OK");
     } catch (error) {

@@ -1,9 +1,13 @@
+//inporting dotenv
 require('dotenv').config();
+
 const express =require('express');
 const userRoute=require('./Routes/userRoutes');
 swaggerUi = require('swagger-ui-express'),
 swaggerDocument = require('./swagger.json');
-const log4js = require('log4js');
+const logger= require('./logger');
+const {sequelize} = require('./models');
+const fileroutes = require('./Routes/FileRoutes');
 
 const app=express();
 
@@ -16,25 +20,24 @@ app.use(function(req, res, next) {
 });
 
 
-//logging
-log4js.configure({
-    appenders: { fileAppender: { type: 'file', filename: './logs/all.log' } },
-    categories: { default: { appenders: ['fileAppender'], level: 'info' } }
-});
-
-// Create the logger
-const logger = log4js.getLogger();
-
 // Log a message
-logger.info("hey");
+app.use(function(req,res,next){
+    logger.info('Method = ',req.method);
+    next();
+})
+
+
+
 
 
 app.use('/api/user',userRoute);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-
+app.use('/api/file',fileroutes);
 
 
 //creating http server
-app.listen(3000,function(){
-    console.log('server started successfully')
+sequelize.sync().then(()=>{
+    app.listen(3000,function(){
+        console.log('server started successfully')
+    })
 })

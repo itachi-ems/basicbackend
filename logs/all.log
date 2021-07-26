@@ -1,3 +1,37 @@
 [2021-07-26T18:16:16.030] [INFO] default - Hello, log4js!
 [2021-07-26T18:17:38.070] [INFO] default - hey
 [2021-07-26T19:03:13.641] [INFO] default - hey
+[2021-07-26T22:40:22.943] [INFO] default - hey POST
+[2021-07-26T22:52:01.843] [INFO] default - hey POST
+[2021-07-26T22:53:12.237] [INFO] default - hey POST
+[2021-07-26T22:54:20.760] [INFO] default - hey POST
+[2021-07-26T23:09:25.934] [INFO] default - hey GET
+[2021-07-26T23:09:26.035] [INFO] default - hey GET
+[2021-07-26T23:09:26.129] [INFO] default - hey GET
+[2021-07-26T23:09:26.138] [INFO] default - hey GET
+[2021-07-26T23:09:26.144] [INFO] default - hey GET
+[2021-07-26T23:24:50.570] [INFO] default - hey OPTIONS
+[2021-07-26T23:24:50.588] [INFO] default - hey POST
+[2021-07-26T23:49:07.360] [INFO] default - hey OPTIONS
+[2021-07-26T23:49:07.371] [INFO] default - hey POST
+[2021-07-27T00:20:00.806] [INFO] default - Method =  OPTIONS
+[2021-07-27T00:20:00.961] [INFO] default - Method =  POST
+[2021-07-27T00:20:01.015] [INFO] default - Method =  POST
+[2021-07-27T00:23:54.856] [INFO] default - Method =  OPTIONS
+[2021-07-27T00:23:54.895] [INFO] default - Method =  POST
+[2021-07-27T00:23:54.910] [INFO] default - Method =  POST
+[2021-07-27T00:25:33.824] [INFO] default - Method =  OPTIONS
+[2021-07-27T00:25:33.839] [INFO] default - Method =  POST
+[2021-07-27T00:25:33.853] [INFO] default - Method =  POST
+[2021-07-27T00:27:27.274] [INFO] default - Method =  OPTIONS
+[2021-07-27T00:27:27.304] [INFO] default - Method =  POST
+[2021-07-27T00:27:27.320] [INFO] default - Method =  POST
+[2021-07-27T00:29:26.908] [INFO] default - Method =  OPTIONS
+[2021-07-27T00:29:26.933] [INFO] default - Method =  POST
+[2021-07-27T00:29:26.990] [INFO] default - Method =  POST
+[2021-07-27T00:30:53.651] [INFO] default - Method =  OPTIONS
+[2021-07-27T00:30:53.662] [INFO] default - Method =  POST
+[2021-07-27T00:30:53.678] [INFO] default - Method =  POST
+[2021-07-27T00:33:11.760] [INFO] default - Method =  OPTIONS
+[2021-07-27T00:33:11.796] [INFO] default - Method =  POST
+[2021-07-27T00:33:11.829] [INFO] default - Method =  POST

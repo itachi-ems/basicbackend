@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "admin1234",
+    "database": "nodedatabase",
+    "host": "gaurangdatabase.c609ug1hespk.us-east-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "admin",
+    "password": "admin1234",
+    "database": "nodedatabase",
+    "host": "gaurangdatabase.c609ug1hespk.us-east-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "admin1234",
+    "database": "nodedatabase",
+    "host": "gaurangdatabase.c609ug1hespk.us-east-2.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}
